@@ -1,0 +1,286 @@
+/* RGB 229 9 20 */
+/* RGB 178 7 16 */
+/* RGB 229 9 20 */
+* {
+  margin: 0;
+  border: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.page1 {
+  background-image: url("netbg.jpg");
+  background-size: cover;
+  padding-bottom: 100px;
+}
+.navbar {
+  height: 60px;
+  background-color: black;
+  color: white;
+  background: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 24px 32px;
+}
+
+.logo {
+  background-image: url("Netflix-logo.png");
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+}
+.navselect {
+  padding-left: 500px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+.select {
+  background-color: rgb(27, 26, 26);
+  border: 1px solid white;
+  width: 110px;
+  height: 2rem;
+  align-self: center;
+  padding-left: 20px;
+  border-radius: 5px;
+  outline: none;
+}
+#lang {
+  color: white;
+  background-color: transparent;
+  padding-right: 10px;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  height: 1.8rem;
+  width: 5rem;
+  outline: none;
+}
+#lang option {
+  color: black;
+}
+.fa-solid {
+  color: white;
+}
+
+#btn {
+  height: 2.2rem;
+  width: 90px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  cursor: pointer;
+}
+.main {
+  height: 300px;
+  width: auto;
+  color: white;
+  align-items: center;
+  text-align: center;
+  padding-top: 180px;
+}
+.main-text {
+  line-height: 3.5em;
+}
+h1 {
+  font-weight: 900;
+  font-size: 45px;
+}
+p {
+  font-size: 20px;
+}
+#p1 {
+  font-size: 25px;
+}
+.email {
+  color: white;
+  text-align: center;
+}
+.email input {
+  height: 50px;
+  width: 400px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  font-size: large;
+  color: white;
+  background-color: transparent;
+}
+input::placeholder {
+  color: rgb(214, 195, 195);
+  border: white;
+}
+#btn2 {
+  height: 55px;
+  width: 200px;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  border: none;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+}
+
+/* PAGE 2 */
+.page2 {
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  /* background-image: url("device-pile-in.png"); */
+}
+.page2-text {
+  height: 60px;
+  width: 500px;
+  align-items: center;
+  text-align: left;
+  padding: 200px 0 100px 100px;
+}
+.page2-content {
+  display: flex;
+}
+.picture1 {
+  padding: 100px 0 100px 100px;
+}
+.device {
+  background-image: url("device-pile-in.png");
+  background-size: cover;
+  height: 300px;
+  width: 400px;
+}
+/* PAGE 3 */
+.page3 {
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.mobile {
+  background-image: url("mobile-0819.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 400px;
+}
+.page3-text {
+  height: 60px;
+  width: 500px;
+  align-items: center;
+  text-align: left;
+  padding: 150px 0 100px 100px;
+}
+.page3-content {
+  display: flex;
+}
+.picture2 {
+  padding: 100px 0 100px 100px;
+}
+/* PAGE 4 */
+.page4 {
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.page4-text {
+  height: 60px;
+  width: 500px;
+  align-items: center;
+  text-align: left;
+  padding: 150px 0 100px 100px;
+}
+.kids {
+  background-image: url("kid.png");
+  background-size: cover;
+  height: 300px;
+  width: 400px;
+}
+.page4-content {
+  display: flex;
+}
+.picture3 {
+  padding: 100px 0 100px 100px;
+}
+/*  PAGE 5 */
+.page5 {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.page5-content {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.page5-text {
+  width: 60rem;
+}
+
+details {
+  gap: 10px;
+  padding: 25px;
+  background-color: rgb(55, 52, 52);
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  text-align: left;
+}
+
+summary {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+summary::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 10px solid #15171b;
+  border-inline: 7px solid transparent;
+  transition: 0.2s;
+}
+h3 {
+  align-items: center;
+  text-align: center;
+}
+/* FOOTER */
+footer {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: rgb(176, 171, 171);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.foot-content {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 30px;
+}
+.div1 {
+  margin-left: 10%;
+  padding-left: 75px;
+}
+a {
+  color: rgb(176, 171, 171);
+}
+.div2 {
+  text-decoration: underline;
+  font-size: small;
+}
